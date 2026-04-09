@@ -3,6 +3,7 @@ docs/
 .gitignore
 .gitkeep
 .DS_Store
+output/*.md
 
 # Claude Code
 .claude/
