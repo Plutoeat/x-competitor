@@ -3,7 +3,6 @@ docs/
 .gitignore
 .gitkeep
 .DS_Store
-tests/
 
 # Claude Code
 .claude/
