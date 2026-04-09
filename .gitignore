@@ -1,3 +1,21 @@
+# Project docs (internal planning)
+docs/
+.gitignore
+.gitkeep
+.DS_Store
+tests/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# CODEX
+.codex/
+AGENTS.md
+
+# Search cache
+.cache/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

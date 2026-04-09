@@ -1,0 +1,28 @@
+[project]
+name = "x-competitor"
+version = "0.1.0"
+description = "3D打印行业竞品自动化分析 Multi-Agent 系统"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai",
+    "crewai-tools",
+    "python-dotenv",
+    "pydantic-settings",
+    "tavily-python>=0.7.23",
+]
+
+[project.scripts]
+x-competitor = "x_competitor.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/x_competitor"]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
